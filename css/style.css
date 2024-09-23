@@ -1,0 +1,133 @@
+/* Style untuk Navbar */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+/* Style untuk Jumbotron */
+.jumbotron {
+    background-image: url('../img/jumbotron-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.jumbotron p.lead {
+    font-size: 18px;
+}
+
+.jumbotron img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Style untuk Section About */
+.about {
+    padding: 60px 0;
+}
+
+.about h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.about h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+}
+
+/* Style untuk Section Portfolio */
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.portfolio .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.portfolio .card:hover {
+    transform: scale(1.05);
+}
+
+.portfolio .card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.portfolio .card-text {
+    font-size: 14px;
+}
+
+/* Style untuk Section Social */
+.social {
+    padding: 60px 0;
+}
+
+.social h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.social .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Style untuk Section Contact */
+.contact {
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contact .card {
+    border: none;
+}
+
+.contact .card-body {
+    background-color: #007bff;
+    color: white;
+}
+
+.contact ul.list-group-item {
+    font-size: 16px;
+}
+
+/* Style untuk Footer */
+footer {
+    padding: 20px 0;
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
